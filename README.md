@@ -2,4 +2,4 @@
 
 spreadsheet calculator
 
-* modify SpreadSheet.java to implement the description given in that class.
+* modify SpreadSheet.java to implement the description given in the class.
