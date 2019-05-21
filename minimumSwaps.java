@@ -1,4 +1,3 @@
-    
 public class Solution {
     static int getIndex(int[] arr, int val, int n) {
         int index = -1;
@@ -27,18 +26,4 @@ public class Solution {
         }
         return count;
     }
-
-    private static final Scanner scanner = new Scanner(System.in);
-
-    int n = scanner.nextInt();
-    int[] arr = new int[n];
-    for (int i = 0; i < n; i++) {
-        int arrItem = Integer.parseInt(arrItems[i]);
-        arr[i] = arrItem;
-    }
-
-    int res = minimumSwaps(arr, n);
-
-    scanner.close();
-
 }
